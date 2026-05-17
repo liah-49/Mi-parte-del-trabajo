@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bebas neue", "roboto";
+}
+
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* Maquetación títulos*/
+h1 {
+ font-family: 'Bebas neue', regular;
+ text-align: center;
+ font-size: 14vw;
+ font-weight: 400;
+ margin-top: 7rem;
+}
+h2 {
+  font-family: 'Bebas neue', regular;
+    font-size: 4vw; 
+    font-weight: 200; 
+    margin-top: -3rem;
+    margin-left: 3rem;
+}
+h3 {
+   font-family: 'roboto', italic ;
+   text-align: center;
+    font-size: 4vw; 
+    font-weight: 200; 
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+h4 {
+ text-align: right;
+ font-family: 'roboto', italic ;
+  font-size: 3vw;
+    font-weight: 100; 
+    margin-top: 6rem;
+    margin-right: 5rem;
+}
