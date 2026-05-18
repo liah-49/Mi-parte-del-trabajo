@@ -1,7 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: "Bebas neue", "roboto";
+    font-family: "Bebas neue", "Roboto";
 }
 
 body {
@@ -26,7 +26,7 @@ h2 {
     margin-left: 3rem;
 }
 h3 {
-   font-family: 'roboto', italic ;
+   font-family: 'Roboto', italic ;
    text-align: center;
     font-size: 4vw; 
     font-weight: 200; 
@@ -41,4 +41,136 @@ h4 {
     font-weight: 100; 
     margin-top: 6rem;
     margin-right: 5rem;
+}
+
+
+.lineatiempo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    z-index: 0;
+
+}
+.todo {
+    position: relative;
+}
+
+.todo > img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    z-index: 0;
+}
+
+.textoimagen,
+.textoimagen1,
+.textoimagen2,
+.textoimagen3,
+.textoimagen4,
+.textoimagen5,
+.textoimagen6,
+.textoimagen7 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+     justify-content: space-between;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+     font-size: 150%;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+/* Filas impares: texto izquierda, imagen derecha */
+.textoimagen,
+.textoimagen2,
+.textoimagen4,
+.textoimagen6 {
+    flex-direction: row;
+  
+}
+
+/* Filas pares: imagen izquierda, texto derecha */
+.textoimagen1,
+.textoimagen3,
+.textoimagen5,
+.textoimagen7 {
+    flex-direction: row-reverse;
+    
+}
+
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+.texto {
+    width: 30%;
+    font-family: 'Roboto';
+
+}
+
+figure {
+    width: 40%;         
+}
+
+.textoimagen {
+margin-top: 1rem;
+margin: 5rem;
+}
+.textoimagen2 {
+margin-top: 1rem;
+margin: 5rem;
+}
+.textoimagen4 {
+margin-top: 1rem;
+margin: 5rem;
+}
+.textoimagen6 {
+margin-top: 1rem;
+margin: 5rem;
+}
+.textoimagen1 {
+padding-right: 6rem;
+}
+.textoimagen3 {
+padding-right: 6rem;
+padding-left: 10rem;
+}
+.textoimagen5 {
+padding-right: 6rem;
+}
+.textoimagen7 {
+padding-right: 6rem;
+}
+.textoimagen3 > div {
+  padding-top: -2rem;  
+}
+.figura1 img , .figura3 img , .figura4 img{
+    width: 50%;
+}
+.figura2 img {
+  width: 50%;
+   margin-top: 0rem;
+}
+.figura3 img {
+  width: 40%;
+   margin-top: -1rem;
+}
+.figura1 {
+    margin-top: 2rem;
+}
+.figura2 {
+    margin-left: 9rem;
+    
 }
