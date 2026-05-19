@@ -62,8 +62,8 @@ h4 {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: 100%;
     z-index: 0;
+    width: 55%;
 }
 
 .textoimagen,
@@ -109,9 +109,11 @@ p {
     
 }
 
-
+figure {
+    width: 40%;
+}
 figure img {
-    width: 100%;
+  width: 100%;
     height: auto;
 }
 .texto {
@@ -120,57 +122,87 @@ figure img {
 
 }
 
-figure {
-    width: 40%;         
-}
-
 .textoimagen {
 margin-top: 1rem;
 margin: 5rem;
 }
 .textoimagen2 {
-margin-top: 1rem;
-margin: 5rem;
+margin-top: 3rem;
+margin-left: 5rem;
+margin-bottom: 6rem;
 }
 .textoimagen4 {
 margin-top: 1rem;
-margin: 5rem;
+margin-left: 5rem;
+
 }
 .textoimagen6 {
-margin-top: 1rem;
-margin: 5rem;
+margin-top: 12rem;
+margin-left: 5rem;
+margin-bottom: 4rem;
+margin-right: 4rem;
+
+}
+.textoimagen7 {
+    margin-top: 10rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-right: 8rem;
 }
 .textoimagen1 {
 padding-right: 6rem;
 }
 .textoimagen3 {
 padding-right: 6rem;
-padding-left: 10rem;
 }
 .textoimagen5 {
 padding-right: 6rem;
+margin-top: 10rem;
 }
-.textoimagen7 {
-padding-right: 6rem;
-}
+
+
 .textoimagen3 > div {
-  padding-top: -2rem;  
+  padding-top: -1rem;  
+    padding-bottom: 6rem;  
+
 }
-.figura1 img , .figura3 img , .figura4 img{
+.figura1 img {
     width: 50%;
+}
+.figura4 img {
+    width: 40%;
+    margin-left: 11rem;
+    margin-bottom: 5rem;
+}
+
+.figura5 img {
+      width: 50%;
+}
+.figura6 img {
+      width: 60%;
+      margin-left: 9rem;
+}
+.figura7 img {
+      width: 80%;
+   padding-right:7rem;
 }
 .figura2 img {
   width: 50%;
    margin-top: 0rem;
 }
 .figura3 img {
-  width: 40%;
-   margin-top: -1rem;
+  margin-left: 2rem;
+ width: 40%;
 }
 .figura1 {
-    margin-top: 2rem;
+    margin-left: 2rem;
+     margin-top: 2rem;
 }
 .figura2 {
     margin-left: 9rem;
     
+}
+.figura8 img {
+margin-left: 4rem;
+width: 70%;
 }
